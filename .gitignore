@@ -1,0 +1,15 @@
+# Credenciales: nunca al repositorio
+.env
+
+# Datos y base de datos: se regeneran con src/carga_db.py
+data/
+db/
+*.db
+*.sqlite
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
