@@ -13,3 +13,8 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 venv/
+
+# Sistema y editor
+.DS_Store
+Thumbs.db
+.vscode/
