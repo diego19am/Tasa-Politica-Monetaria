@@ -2,18 +2,18 @@
 
 Ciencia de Datos para Economía (ICO09425) · Escuela de Ingeniería Comercial, FAE-UDP.
 
-> Plantilla del README. Los textos entre `[corchetes]` los completa el equipo. Los comandos de `src/carga_db.py` siguen la guía del Hito 2; ajusten lo que difiera de su código.
+Los textos entre `[corchetes]` los completa el equipo. Los comandos de `src/carga_db.py` siguen la guía del Hito 2; ajusten lo que difiera de su código.
 
 ## 1. Descripción
 - **Variable objetivo:** Tasa de Política Monetaria (TPM).
-- **Pregunta de proyección:** [copiar la pregunta de la propuesta del Hito 1].
+- **Pregunta de proyección:** ¿Cuál es la trayectoria más probable de la Tasa de Política Monetaria en Chile para los próximos 24 meses, en qué medida esa trayectoria es consistente con una regla de Taylor estimada con datos históricos chilenos frente a un modelo de series de tiempo (SARIMA), y cuáles son los principales riesgos al alza y a la baja, de inflación, actividad y contexto externo que podrían llevar al Banco Central a desviarse de dicha trayectoria?.
 - **Integrantes:** Diego Alarcon, Francisco Vera, Martyn Sanhueza, Benjamin Tomckowiack.
 - **Flujo:** `API (BDE / FRED) → SQLite → vistas SQL → Python (notebook)`.
 - **Estado (Hito 2):** base poblada desde las APIs (14 series), consultas SQL y análisis de coyuntura inicial.
-- **Fecha de corte de los datos:** `[AAAA-MM-DD]` (el último dato diario cargado es del 2026-10-19; usar la misma fecha en `--hasta`).
+- **Fecha de corte de los datos:** `2026-10-19` (el último dato diario cargado es del 2026-10-19; usar la misma fecha en `--hasta`).
 
 ## 2. Requisitos
-- Python `[versión, p. ej. 3.11]`.
+- Python `Python 3.14.7`.
 - `pip install -r requirements.txt` (el notebook usa pandas, numpy, matplotlib y jupyter/ipykernel; verificar que estén en el archivo).
 
 ## 3. Credenciales
