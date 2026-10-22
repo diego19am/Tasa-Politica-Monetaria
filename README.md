@@ -30,7 +30,7 @@ python src/carga_db.py --hasta [AAAA-MM-DD]
 python src/aplicar_sql.py
 
 # 3) Abrir el análisis de coyuntura
-jupyter notebook notebooks/01_analisis_coyuntura.ipynb
+jupyter notebook notebooks/analisis_tpm.ipynb
 ```
 Notas:
 - Nunca usar `--demo` para el análisis: genera datos sintéticos.
@@ -42,7 +42,7 @@ Notas:
 src/         extracción y carga (carga_db.py, config.py) y aplicar_sql.py
 sql/         01_vistas.sql (vistas con JOIN, GROUP BY y funciones de ventana),
              04_resumen_por_bloque.sql, 05_resumen_tpm_anual.sql, 06_huecos_mensuales.sql
-notebooks/   01_analisis_coyuntura.ipynb
+notebooks/   analisis_tpm.ipynb
 docs/        razones_series.md (razón económica de cada serie)
 db/          base SQLite generada (NO se versiona)
 ```
